@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'main', credentialsId: '2324ef01-eb15-438f-bb5f-0d85366536a9', url: 'https://github.com/ankitdhakate/scm.git'
+                git branch: 'main', credentialsId: '2324ef01-eb15-438f-bb5f-0d85366536a9', url: 'https://github.com/ankitdhakate/student-app.git'
             }
         }
         stage('build') {
