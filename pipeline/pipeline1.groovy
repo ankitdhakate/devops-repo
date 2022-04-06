@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'build successful' 
+                sh 'mnv clean package'
             }
         }
         stage('test') {
