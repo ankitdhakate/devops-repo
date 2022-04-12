@@ -14,7 +14,7 @@ pipeline {
         stage('test') {
             steps {
                 withSonarQubeEnv(credentialsId: 'sonarqube-cred') {
-sh '''mvn sonar:sonar \\
+// sh '''mvn sonar:sonar \\
   -Dsonar.projectKey=sonar1 \\
   -Dsonar.host.url=http://3.110.88.226:9000 \\
   -Dsonar.login=b53955f4c73490541656e292b15be5949ddd73fa'''
