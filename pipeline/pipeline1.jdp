@@ -13,8 +13,8 @@ pipeline {
         }
         stage('test') {
             steps {
-                withSonarQubeEnv('sonar' credentialsId: 'sonarqube-cred') {
-                // sh '''mvn sonar:sonar'''
+                withSonarQubeEnv(credentialsId: 'sonarqube-cred') {
+                sh '''mvn sonar:sonar'''
 }
             }
         }
