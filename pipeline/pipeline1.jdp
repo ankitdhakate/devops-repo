@@ -14,7 +14,7 @@ pipeline {
         stage('test') {
             steps { 
                withSonarQubeEnv(credentialsId: '83437342-542d-415e-a3d7-b2ef6627cadd') {
-    sh 'sonar:sonar'
+    sh 'mvn sonar:sonar'
 }
 }
             }
