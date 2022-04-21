@@ -1,5 +1,5 @@
 ---
-name: my first playbook
+name: myfirstplaybook
 hosts: 65.0.138.102
 task: 
   name: ping the host
