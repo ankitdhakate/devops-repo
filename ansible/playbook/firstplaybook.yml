@@ -1,0 +1,8 @@
+---
+name: my first playbook
+hosts: 65.0.138.102
+task: 
+  name: ping the host
+  ping: 
+...
+  
