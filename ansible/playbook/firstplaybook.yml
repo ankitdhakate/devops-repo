@@ -1,7 +1,0 @@
----
-name: myfirstplaybook
-hosts: all
-task: 
-  name: ping the host
-  ping: 
-...  

@@ -1,0 +1,8 @@
+---
+- name: firstplaybook
+  hosts: all
+  tasks:
+  - name: ping the host
+    ping:
+    
+...
