@@ -1,8 +1,7 @@
 ---
 name: myfirstplaybook
-hosts: 65.0.138.102
+hosts: all
 task: 
   name: ping the host
   ping: 
-...
-  
+...  
