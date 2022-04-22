@@ -1,9 +1,8 @@
 ---
  - name: debug playbook
    hosts: all
-   file-prompt:
-    prompt: please enter your website
-    private: False
+   vars:
+   url: www.cloud.com
    tasks:
     - name: print hello world
       debug:
