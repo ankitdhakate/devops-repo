@@ -2,6 +2,6 @@
 - name: debug playbook
   hosts: all
   tasks:
-   name: print hello world
-    debug:
-    msg: "hello world from ankit"
+   - name: print hello world
+     debug:
+     msg: "hello world from ankit"
