@@ -2,7 +2,7 @@
  - name: debug playbook
    hosts: all
    vars:
-   url: www.cloud.com
+    - url: www.cloud.com
    tasks:
     - name: print hello world
       debug:
