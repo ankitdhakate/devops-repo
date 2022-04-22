@@ -11,5 +11,5 @@
       debug:
        msg: "please visit {{ url }}"
        vars: 
-       url: www. gremio.com
+        - url: www. gremio.com
 ...
