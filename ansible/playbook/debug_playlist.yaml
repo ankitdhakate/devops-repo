@@ -3,5 +3,6 @@
    hosts: all
    tasks:
     - name: print hello world
-       debug:
-       msg: "hello world from ankit"
+      debug:
+      msg: "hello world from ankit"
+...
