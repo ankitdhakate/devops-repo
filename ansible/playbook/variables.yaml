@@ -1,7 +1,7 @@
 ---
  - name: debug playbook
    hosts: all
-   file_prompt:
+   file-prompt:
     prompt: please enter your website
     private: False
    tasks:
