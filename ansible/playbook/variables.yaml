@@ -1,8 +1,9 @@
 ---
  - name: debug playbook
    hosts: all
-   vars_files: 
-    - ./varfile
+   file-prompt:
+   prompt: please enter your website
+   private: false
    tasks:
     - name: print hello world
       debug:
