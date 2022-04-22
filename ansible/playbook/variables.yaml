@@ -1,7 +1,7 @@
 ---
  - name: debug playbook
    hosts: all
-   var_files: 
+   vars_files: 
     - ansible/playbook/varfile
    tasks:
     - name: print hello world
