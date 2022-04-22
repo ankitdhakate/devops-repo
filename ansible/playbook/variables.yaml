@@ -1,9 +1,9 @@
 ---
  - name: debug playbook
    hosts: all
-   file-prompt:
+   file_prompt:
    prompt: please enter your website
-   private: false
+   private: False
    tasks:
     - name: print hello world
       debug:
