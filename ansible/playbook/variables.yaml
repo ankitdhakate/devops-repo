@@ -1,8 +1,8 @@
 ---
  - name: debug playbook
    hosts: all
-   vars: 
-    - url: www.cloudblitz.com
+   var_files: 
+    - ansible/playbook/varfile
    tasks:
     - name: print hello world
       debug:
