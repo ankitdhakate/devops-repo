@@ -1,0 +1,10 @@
+---
+ - name: debug playbook
+   hosts: all
+   vars: 
+    - url: www.cloudblitz.com
+   tasks:
+    - name: print hello world
+      debug:
+       msg: "please visit {{ url }}"
+...
