@@ -7,7 +7,7 @@
     - name: print hello world
       debug:
        msg: "please visit {{ url }}"
-        - name: print msg
+    - name: print msg
       debug:
        msg: "please visit {{ url }}"
        vars: 
